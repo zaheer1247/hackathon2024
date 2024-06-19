@@ -1,0 +1,6 @@
+pip install asteroid
+install cmake
+
+pip install "C:\Users\darks\PycharmProjects\pythonProject\venv\Lib\site-packages\dlib-19.24.99-cp312-cp312-win_amd64.whl"
+
+pip install face_recognition
