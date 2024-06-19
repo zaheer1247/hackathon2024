@@ -1,3 +1,4 @@
+Install Visual Studio 2022 with "DEVLOPMENT TOOLS FOR C++" enabled
 pip install asteroid
 install cmake form "https://cmake.org/features/"
 
