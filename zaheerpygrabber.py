@@ -1,15 +1,19 @@
 from pygrabber.dshow_graph import FilterGraph
+import time
 
+print("Initiating search for available cameras")
+time.sleep(3)
 
-def get_available_cameras():
-    devices = FilterGraph().get_input_devices()
+print("Getting list of input devices")
+devices = FilterGraph().get_input_devices()
+time.sleep(3)
 
-    available_cameras = {}
+available_cameras = {}
 
-    for device_index, device_name in enumerate(devices):
-        available_cameras[device_index] = device_name
+print("Printing camera details")
+for device_index, device_name in enumerate(devices):
+    available_cameras[device_index] = device_name
+    print(device_index, "-", device_name)
 
-    return available_cameras
-
-
-print(get_available_cameras())
+val = input("Select your camera : ")
+print("You have selected ", available_cameras[int(val)])
