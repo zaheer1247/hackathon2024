@@ -7,3 +7,6 @@ pip install "C:\Users\darks\PycharmProjects\pythonProject\venv\Lib\site-packages
 
 pip install face_recognition
 pip install tensorflow
+
+#Module for grabbing live video images using DirectShow
+pip install pygrabber
