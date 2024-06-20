@@ -6,3 +6,4 @@ Download DLIB from "https://github.com/z-mahmud22/Dlib_Windows_Python3.x/blob/ma
 pip install "C:\Users\darks\PycharmProjects\pythonProject\venv\Lib\site-packages\dlib-19.24.99-cp312-cp312-win_amd64.whl"
 
 pip install face_recognition
+pip install tensorflow
